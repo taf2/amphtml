@@ -333,6 +333,21 @@ export const ANALYTICS_CONFIG = {
       'image': true,
     },
   },
+  'ctm': {
+    'requests': {
+      'pageview': '//11774.tctm.co/t.js'
+    },
+    'triggers': {
+      'defaultPageview': {
+        'request': 'pageview',
+      },
+    },
+    'transport': {
+      'beacon': true,
+      'xhrpost': false,
+      'image': false,
+    },
+  },
 
   'cxense': {
     'requests': {
